@@ -4,7 +4,7 @@ import styled from "styled-components";
 const Header = () => {
 	return (
 		<Nav>
-			<Logo src="/images/logo.svg" />
+			<Logo src="/images/logo.svg" alt="Header" />
 			<NavMenu>
 				<a>
 					<img src="/images/home-icon.svg" alt="Home icon" />
@@ -34,7 +34,10 @@ const Header = () => {
 					<span>SERIES</span>
 				</a>
 			</NavMenu>
-			<UserImg src="https://lh3.googleusercontent.com/ogw/ADGmqu9dmqP5MYdHczgj7YO4N3udu1t5jS0jEcsWEB9mZA=s32-c-mo" />
+			<UserImg
+				src="https://lh3.googleusercontent.com/ogw/ADGmqu9dmqP5MYdHczgj7YO4N3udu1t5jS0jEcsWEB9mZA=s32-c-mo"
+				alt="icon"
+			/>
 		</Nav>
 	);
 };
