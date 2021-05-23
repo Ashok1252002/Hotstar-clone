@@ -3,7 +3,6 @@ import {
 	BrowserRouter as Router,
 	Switch,
 	Route,
-	Link,
 } from "react-router-dom";
 // import { Counter } from "./features/counter/Counter";
 import Header from "./components/Header";
@@ -19,7 +18,7 @@ function App() {
 			<Router>
 				<Header />
 				<Switch>
-					<Route path="/detail">
+					<Route path="/detail/:id">
 						<Detail />
 					</Route>
 					<Route path="/login">
