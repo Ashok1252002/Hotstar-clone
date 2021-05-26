@@ -32,11 +32,11 @@ const Detail = () => {
 					</ImageTitle>
 					<Controls>
 						<PlayButton>
-							<img src="images/play-icon-black.png" alt="" />
+							<img src="/images/play-icon-black.png" alt="" />
 							<span>PLAY</span>
 						</PlayButton>
 						<TrailerButton>
-							<img src="images/play-icon-white.png" alt="" />
+							<img src="/images/play-icon-white.png" alt="" />
 							<span>Trailer</span>
 						</TrailerButton>
 						<AddButton>
